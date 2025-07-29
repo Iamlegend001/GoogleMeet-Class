@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "server.js"],
+  "ext": "js,json",
+  "exec": "clear && dotenvx run -- node server.js",
+  "ignore": ["src/logs/*"]
+}
